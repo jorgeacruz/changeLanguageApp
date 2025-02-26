@@ -1,8 +1,9 @@
-<h1 style='text-align:center;'>
-Change Language in your App
-</h1>
+# Internacional Langague
+Determinados projetos têm a necessidade alcançar públicos de diferentes nacionalidades afim de atingir seus objetivos. De maneira simples e direta a biblioteca i18next deixa de maneira flexivel para aplicar por todo app.
 
-![Change Language Video](video.gif)
+# Swiper Image
+
+
 <h3>
 Using i18next and react-i18next libraries, you easy change languege in your app. Fast and simple.
 </h3>

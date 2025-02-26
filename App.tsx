@@ -7,15 +7,16 @@ import { useTranslation } from 'react-i18next';
 
 
 export default function App() {
-
+  //
   const {t, i18n} = useTranslation();
-  const changeLanguage = value => {
+
+  const changeLanguage = (value: 'pt' | 'en' | 'sp') => {
     i18n.changeLanguage(value)
     .then(() => {
-      console.log('Alterada')
+      console.log('Idioma Alteradao')
     })
     .catch((error) => {
-      console.log(err)
+      console.log(error)
     })
   }
 
@@ -32,7 +33,7 @@ export default function App() {
           <Image source={require('./src/img/spain.png')} />
         </TouchableOpacity>
       </View>
-      <Swiper autoplay={true} autoplayTimeout={4.5}>
+      <Swiper autoplay={false} autoplayTimeout={4.5}>
 
         <View>
           <Image source={require('./src/img/yoda.png')} style={styles.imgSld}/>
